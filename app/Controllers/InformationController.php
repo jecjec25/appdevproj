@@ -6,6 +6,27 @@ use App\Controllers\BaseController;
 
 class InformationController extends BaseController
 {
+    public function index()
+    {
+        echo view('main/index');
+    }
+    public function Finance()
+    {
+        echo view('main/finance');
+    }
+    public function barangay()
+    {
+        echo view('main/barangay');
+    }
+    public function events()
+    {
+        echo view('main/event');
+    }
+    public function contact()
+    {
+        echo view('main/contact');
+    }
+
     private $information;
     public function __construct(){
     $this->information = new \App\Models\ResidentInformationModel();
@@ -13,7 +34,7 @@ class InformationController extends BaseController
     public function Information()
     {
         $data['info'] = $this->information->findAll();
-        return view('information', $data);
+        return view('main/information', $data);
     }
     
         public function insertInformation()
@@ -31,4 +52,5 @@ class InformationController extends BaseController
             $this->information->save($data);
             return redirect()->to('/information');
         }
+
 }

@@ -37,6 +37,7 @@ class SigninController extends BaseController
                         $session->set($ses_data);
                     return redirect()->to('/information');
                     }
+                    
                     else{
                     $session->set($ses_data);
                     echo 'hello';
@@ -52,5 +53,6 @@ class SigninController extends BaseController
                 return redirect()->to('/signin');
             }
         }
+            
     }
 
