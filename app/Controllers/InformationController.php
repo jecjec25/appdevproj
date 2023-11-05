@@ -29,8 +29,15 @@ class InformationController extends BaseController
     {
         echo view('main/contact');
     }
-    
-
+    public function form()
+    {
+        echo view('dashboard/form');
+    }
+    public function dashboard()
+    {
+        $data['fin'] = $this->fin->findAll();
+        return view('dashboard/index', $data);
+    }
     private $information;
     public function __construct(){
     $this->information = new \App\Models\PopulationModel();
@@ -45,7 +52,7 @@ class InformationController extends BaseController
     public function financert()
     {
         $data['fin'] = $this->fin->findAll();
-        return view('main/financesert', $data);
+        return view('main/financesert');
     }
        
     public function insertInformation()
@@ -66,7 +73,7 @@ class InformationController extends BaseController
                 'Change' => $this->request->getVar('Change'),
             ];
             $this->fin->save($data);
-            return redirect()->to('/financert');
+            return redirect()->to('/dashboard');
         }
 
 }
