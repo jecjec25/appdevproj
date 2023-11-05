@@ -1,0 +1,13 @@
+CRITICAL - 2023-11-05 02:03:38 --> Undefined array key "ResidentName"
+in APPPATH\Views\main\information.php on line 43.
+ 1 APPPATH\Views\main\information.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ResidentName"', 'C:\\laragon\\www\\appdevproj\\app\\Views\\main\\information.php', 43)
+ 2 APPPATH\Views\information.php(24): include('C:\\laragon\\www\\appdevproj\\app\\Views\\main\\information.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\appdevproj\\app\\Views\\information.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Information', [], true)
+ 6 APPPATH\Controllers\InformationController.php(42): view('Information', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->Information()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
