@@ -13,7 +13,11 @@
         <label>Name: </label>
     <input type="text" name="BarangayName" placeholder ="Barangay Name">    
     <input type="text" name = "barangayPopulation" placeholder ="Barangay Population">
-    <input type="text" name="populationYear" placeholder ="Year">
+    <!-- <input type="text" name="populationYear" placeholder ="Year"> -->
+    <Select name="populationYear">
+    <option>2020</option>
+    <option>2023</option>
+    </Select>
     <button type ="submit">save</button>
     </form>
      

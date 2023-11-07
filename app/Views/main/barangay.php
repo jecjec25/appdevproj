@@ -51,7 +51,6 @@
         <div class="wrapper row-offcanvas row-offcanvas-left">
 <div class="container-fluid">
     <form action="/information">
-    <button type="submit" style=" border-radius: 10px" class ="btn-success">ADD</button>
 </form>
     <br>
 <table id="table" class="table table-bordered table-striped">
@@ -60,8 +59,6 @@
             <th>Barangay Name</th>
             <th>Population (2020)</th>
             <th>Population (2023)</th>
-            <th>Action</th>
-            
         </tr>
     </thead>
     <tbody>
@@ -70,10 +67,6 @@
             <th><?= $St['barangayPopulation'] ?></th>
             <th><?=  $St['barangayPopulation']?>
             </th>
-            
-            
-            
-            
     </tbody>
     <?php endforeach; ?>
 </table>
