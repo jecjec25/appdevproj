@@ -1,0 +1,40 @@
+CRITICAL - 2023-11-08 01:22:04 --> Invalid file: "dashboard/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/form.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/form', [], true)
+ 3 APPPATH\Controllers\InformationController.php(34): view('dashboard/form')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-08 01:22:18 --> Invalid file: "dashboard/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/form.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/form', [], true)
+ 3 APPPATH\Controllers\InformationController.php(34): view('dashboard/form')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-08 01:23:12 --> Invalid file: "dashboard/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/form.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/form', [], true)
+ 3 APPPATH\Controllers\InformationController.php(34): view('dashboard/form')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
+CRITICAL - 2023-11-08 01:26:02 --> Invalid file: "dashboard/form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/form.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard/form', [], true)
+ 3 APPPATH\Controllers\InformationController.php(34): view('dashboard/form')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\InformationController->form()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InformationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\appdevproj\\public\\index.php')
