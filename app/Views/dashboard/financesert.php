@@ -16,6 +16,49 @@
     <input type="text" name="Change" placeholder ="Change">
     <button type ="submit">save</button>
     </form>
-     
+    <form method="post">
+                                    <div class="tab-content">
+                                    <div id="approved" class="tab-pane active in">
+                                        <table id="table" class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Fiscal Year</th>
+                                                    <th>Annual Regular Income</th>
+                                                    <th>Change</th>
+                                            </tr>
+                                            </thead>
+                                          <tbody>
+                                          <?php foreach ($fin as $St): ?>
+                                            <th><?= $St['FiscalYear'];?></th>
+                                            <th><?= $St['AnnualRegularIncome']?></th>
+                                            <th><?=  $St['Change'];  echo('%')?></th>
+              
+                                            </tbody>
+                                            <?php endforeach;?>
+                                        </table>
+
+                                        </div>
+
+                                      <div id="disapproved" class="tab-pane">
+                                        <table id="table1" class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Resident Name</th>
+                                                    <th>Findings</th>
+                                                    <th>Purpose</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+                                            </tbody>
+                                        </table>
+
+                                        </div>
+
+
+                                        </div>
+                                
+
+                                    </form>
 </body>
 </html>

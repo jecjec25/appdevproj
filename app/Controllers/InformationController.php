@@ -21,6 +21,11 @@ class InformationController extends BaseController
         $data['info'] = $this->information->findAll();
         return view('main/barangay', $data);
     }
+    public function person()
+    {
+        $data['info'] = $this->information->findAll();
+        return view('dashboard/Include/personInfo', $data);
+    }
     public function events()
     {
         echo view('main/event');
