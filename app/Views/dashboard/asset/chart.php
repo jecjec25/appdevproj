@@ -5,18 +5,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Calapan City</title>
-    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="../../assets/vendors/flag-icon-css/css/flag-icon.min.css" />
-    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
-    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+
   </head>
   <body>
     <div class="container-scroller">
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
-          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg" alt="logo" /></a>
-          <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo" href="/asset/chart"><img src="/asset/chart" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="/asset/chart"><img src="/asset/chart" alt="logo" /></a>
         </div>
         <ul class="nav">
           <li class="nav-item nav-profile">
@@ -34,7 +30,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">
+            <a class="nav-link" href="dashbaord">
               <i class="mdi mdi-home menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -78,25 +74,25 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" href="dashboard">
               <i class="mdi mdi-contacts menu-icon"></i>
               <span class="menu-title">Icons</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/forms/basic_elements.html">
+            <a class="nav-link" href="dashboard">
               <i class="mdi mdi-format-list-bulleted menu-icon"></i>
               <span class="menu-title">Forms</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/charts/chartjs.html">
+            <a class="nav-link" href="/asset/chart">
               <i class="mdi mdi-chart-bar menu-icon"></i>
               <span class="menu-title">Charts</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../pages/tables/basic-table.html">
+            <a class="nav-link" href="dashboard">
               <i class="mdi mdi-table-large menu-icon"></i>
               <span class="menu-title">Tables</span>
             </a>
