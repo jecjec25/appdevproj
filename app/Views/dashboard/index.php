@@ -46,7 +46,7 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Residents</a>
+                  <a class="nav-link" href="../../asset/residents">Residents</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pages/ui-features/dropdowns.html">Demographic</a>
@@ -78,13 +78,13 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dashboard">
+            <a class="nav-link" href="../../asset/icon">
               <i class="mdi mdi-contacts menu-icon"></i>
               <span class="menu-title">Icons</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dashboard">
+            <a class="nav-link" href="../form.php">
               <i class="mdi mdi-format-list-bulleted menu-icon"></i>
               <span class="menu-title">Forms</span>
             </a>
