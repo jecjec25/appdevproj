@@ -23,7 +23,7 @@ class AuthGuard implements FilterInterface
      *
      * @return mixed
      */
-public function before(RequestInterface $request, $arguments = null)
+    public function before(RequestInterface $request, $arguments = null)
     {
         public function before(RequestInterface $request, $arguments = null)
         {

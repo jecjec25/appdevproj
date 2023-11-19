@@ -20,7 +20,3 @@ $routes->get('finance', 'InformationController::Finance');
 $routes->get('barangay', 'InformationController::barangay');
 $routes->get('events', 'InformationController::events');
 $routes->get('contact', 'InformationController::contact');
-$routes->get('financert', 'InformationController::financert');
-$routes->post('insertfinance', 'InformationController::insertfinance');
-$routes->get('form', 'InformationController::form');
-$routes->get('dashboard', 'InformationController::dashboard');

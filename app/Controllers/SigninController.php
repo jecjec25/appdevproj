@@ -32,10 +32,10 @@ class SigninController extends BaseController
                         'email' => $data['email'],
                         'isLoggedIn' => TRUE
                     ];
-                    if($data['email'] == 'christiadelachica@gmail.com')
+                    if($data['email'] == 'dan@try.com')
                     {
                         $session->set($ses_data);
-                    return redirect()->to('/dashboard');
+                    return redirect()->to('/information');
                     }
                     
                     else{

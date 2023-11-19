@@ -12,19 +12,11 @@ class InformationController extends BaseController
     }
     public function Finance()
     {
-        
-        $data['fin'] = $this->fin->findAll();
-        return view('main/finance', $data);
+        echo view('main/finance');
     }
     public function barangay()
     {
-        $data['info'] = $this->information->findAll();
-        return view('main/barangay', $data);
-    }
-    public function person()
-    {
-        $data['info'] = $this->information->findAll();
-        return view('dashboard/Include/personInfo', $data);
+        echo view('main/barangay');
     }
     public function events()
     {
@@ -34,51 +26,31 @@ class InformationController extends BaseController
     {
         echo view('main/contact');
     }
-    public function form()
-    {
-        echo view('dashboard/form');
-    }
-    public function dashboard()
-    {
-        $data['fin'] = $this->fin->findAll();
-        return view('dashboard/index', $data);
-    }
+
     private $information;
     public function __construct(){
-    $this->information = new \App\Models\PopulationModel();
-    $this->fin = new \App\Models\FinanceModel();
+    $this->information = new \App\Models\ResidentInformationModel();
     }
     public function Information()
     {
         $data['info'] = $this->information->findAll();
-        return view('Information', $data);
+        return view('main/information', $data);
     }
-       
-    public function financert()
-    {
-        $data['fin'] = $this->fin->findAll();
-        return view('main/financesert');
-    }
-       
-    public function insertInformation()
+    
+        public function insertInformation()
         {
             $data = [
-                'BarangayName' => $this->request->getVar('BarangayName'),
-                'barangayPopulation' => $this->request->getVar('barangayPopulation'),
-                'populationYear' => $this->request->getVar('populationYear'),
+                'ResidentName' => $this->request->getVar('ResidentName'),
+                'ContactNo' => $this->request->getVar('ContactNo'),
+                'Status' => $this->request->getVar('Status'),
+                'Gender' => $this->request->getVar('Gender'),
+                'Birthdate' => $this->request->getVar('Birthdate'),
+                'Age' => $this->request->getVar('Age'),
+                'Address' => $this->request->getVar('Address'),
+
             ];
             $this->information->save($data);
             return redirect()->to('/information');
-        }
-        public function insertFinance()
-        {
-            $data = [
-                'FiscalYear' => $this->request->getVar('FiscalYear'),
-                'AnnualRegularIncome' => $this->request->getVar('AnnualRegularIncome'),
-                'Change' => $this->request->getVar('Change'),
-            ];
-            $this->fin->save($data);
-            return redirect()->to('/dashboard');
         }
 
 }

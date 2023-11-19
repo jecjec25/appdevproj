@@ -14,8 +14,8 @@
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link active">HOME</a>
                         <a href="finance" class="nav-item nav-link">FINANCE</a>
-                        <a href="/barangay" class="nav-item nav-link">BARANGAY</a>
-                        <a href="events" class="nav-item nav-link">EVENTS</a>
+                        <a href="barangay" class="nav-item nav-link">BARANGAY</a>
+                        <a href="barangay" class="nav-item nav-link">EVENTS</a>
                         <a href="contact" class="nav-item nav-link">CONTACT</a>
                     </div>
                     <a href="/signin" class="btn btn-primary px-3 d-none d-lg-flex">LOGIN</a>
